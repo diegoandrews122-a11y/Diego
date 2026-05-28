@@ -1,0 +1,26 @@
+<DOCTYPE HTML>
+<html>
+<head>
+<title> meu site js</title>
+<body>
+<head>
+  <meta charset="UTF-8">
+  <title>Contador de 0 a 10</title>
+</head>
+<body>
+<h1>ATIVIDADE 4</h1>
+<P>criar um contador que conta até 10</P>
+<button onclick="contar()">Clique aqui</button>
+
+<p id="numero">0</p>
+
+<script>
+  let numero = 0;
+
+  function contar() {
+    if (numero < 10) {
+      numero++;
+      document.getElementById("numero").innerText = numero;
+    }
+  }
+</script>
